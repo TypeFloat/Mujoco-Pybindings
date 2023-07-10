@@ -33,3 +33,11 @@ def mj_step2(m, d): # real signature unknown; restored from __doc__
     Advance simulation in two steps: after external force and control is set by user.
     """
     pass
+
+def mj_resetData(m, d): # real signature unknown; restored from __doc__
+    """
+    mj_resetData(m: mujoco._structs.MjModel, d: mujoco._structs.MjData) -> None
+    
+    Reset data to defaults.
+    """
+    pass
